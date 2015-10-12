@@ -12,14 +12,14 @@ cinderella-stage-calendar
 
 ##### 1. グループ別にiCalファイルが分かれているので、追加したいグループのURLをコピー
 
-- グループA https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-A.ics
-- グループB https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-B.ics
-- グループC https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-C.ics
-- グループD https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-D.ics
-- グループE https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-E.ics
-- グループF https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-F.ics
-- グループG https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-G.ics
-- グループH https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-H.ics
+- グループA: https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-A.ics
+- グループB: https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-B.ics
+- グループC: https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-C.ics
+- グループD: https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-D.ics
+- グループE: https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-E.ics
+- グループF: https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-F.ics
+- グループG: https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-G.ics
+- グループH: https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-H.ics
 
 ##### 2. Googleカレンダーの[他のカレンダー]から[URLで追加]
 
