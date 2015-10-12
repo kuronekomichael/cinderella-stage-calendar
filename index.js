@@ -12,7 +12,7 @@ var TicketCalendar = require('./lib/ticket-calendar');
     var tCal = new TicketCalendar(groupName);
     for (
         var date = moment().startOf('month');
-        date.isBefore(moment().add(0, 'month').endOf('month'));
+        date.isBefore(moment().add(2, 'month').endOf('month'));
         date.add(1, 'day')
     ) {
         tCal.getTrainingTicketTimesByDate(date).forEach(function(startTime, index) {
