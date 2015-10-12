@@ -1,27 +1,48 @@
 cinderella-stage-calendar
 ==========================
-デレステのトレチケタイムをiCalファイルにしたものです（非公式）
+日付からデレステのトレチケタイムを導き出します。iCal形式のファイルも置いてます。
 
-## iCal
+## CAUTION
 
-- https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-A.ics
-- https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-B.ics
-- https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-C.ics
-- https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-D.ics
-- https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-E.ics
-- https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-F.ics
-- https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-G.ics
-- https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-H.ics
+- 非公式のカレンダーです。間違っても公式の運営さんに文句をいわないように
+- 間違いがあっても何も保証できません。仕様変更などの情報があればissueで寄せて頂ければ幸いです
 
-## Caution
+## For Consumers
+例として、Googleカレンダーに登録する手順を載せておきます。
 
-- 非公式のシロモノです。間違っても公式の運営さんに文句をいわないように
-- 間違いがあっても何も保証できません。仕様変更などの情報があればissueをあげてください
+##### 1. グループ別にiCalファイルが分かれているので、追加したいグループのURLをコピー
 
-## Installation
+- グループA https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-A.ics
+- グループB https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-B.ics
+- グループC https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-C.ics
+- グループD https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-D.ics
+- グループE https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-E.ics
+- グループF https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-F.ics
+- グループG https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-G.ics
+- グループH https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-H.ics
+
+##### 2. Googleカレンダーの[他のカレンダー]から[URLで追加]
+
+![](img/example-google-calendar-01.png)
+
+##### 3. 1.でメモしたURLを入力して[カレンダーを追加]
+
+![](img/example-google-calendar-02.png)
+
+##### 4. お好みでカレンダーの色を変えたり、通知を編集したり
+
+![](img/example-google-calendar-03.png)
+
+## For Developers
+
+### Installation
+
+```bash
+$ npm install cinderella-stage-calendar
+```
 
 ```javascript
-var TicketCalendar = require('./lib/ticket-calendar');
+var TicketCalendar = require('cinderella-stage-calendar');
 var tCal = new TicketCalendar(TicketCalendar.GROUP_A);
 var times = tCal.getTrainingTicketTimesByDate(new Date('2015-10-1'));
 console.log(times);
@@ -30,25 +51,6 @@ console.log(times);
 //  Thu Oct 01 2015 13:00:00 GMT+0900 (JST),
 //  Thu Oct 01 2015 20:00:00 GMT+0900 (JST) ]
 ```
-
-## Rule
-
-- グループはA, B, C, D, E, F, G, Hの８つ  
-    アプリ起動時に画面左下に表示されます
-- パターンは0〜3の４種類
-    - パターン0
-    - パターン1
-    - パターン2
-    - パターン3
-- 10/1がパターン3、10/2がパターン2、10/3がパターン1, 10/4がパターン0、10/5がパターン3・・・とループしています
-
-
-グループ | パターン0           | パターン1           | パターン2           | パターン3
--------- | ------------------- | ------------------- | ------------------- | -------------------
-A, E     | 08:00、12:00、19:00 | 11:00、15:00、22:00 | 10:00、14:00、21:00 | 09:00、13:00、20:00
-B, F     | 09:00、13:00、20:00 | 08:00、12:00、19:00 | 11:00、15:00、22:00 | 10:00、14:00、21:00
-C, G     | 10:00、14:00、21:00 | 09:00、13:00、20:00 | 08:00、12:00、19:00 | 11:00、15:00、22:00
-D, H     | 11:00、15:00、22:00 | 10:00、14:00、21:00 | 09:00、13:00、20:00 | 08:00、12:00、19:00
 
 ## References
 
