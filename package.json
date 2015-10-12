@@ -1,0 +1,33 @@
+{
+  "name": "cinderella-stage-calendar",
+  "version": "0.0.1",
+  "description": "Calendar for THE iDOLM@STER Cinderella Girls: Starlight Stage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuronekomichael/cinderella-stage-calendar.git"
+  },
+  "keywords": [
+    "imas",
+    "calendar",
+    "ical"
+  ],
+  "author": "kuronekomichael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuronekomichael/cinderella-stage-calendar/issues"
+  },
+  "homepage": "https://github.com/kuronekomichael/cinderella-stage-calendar#readme",
+  "dependencies": {
+    "moment": "^2.10.6",
+    "moment-range": "^2.0.3",
+    "vobject": "0.0.34"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
