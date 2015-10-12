@@ -1,9 +1,10 @@
 {
   "name": "cinderella-stage-calendar",
   "version": "0.0.1",
-  "description": "Calendar for THE iDOLM@STER Cinderella Girls: Starlight Stage",
-  "main": "index.js",
+  "description": "Unofficial calendar for THE iDOLM@STER Cinderella Girls: Starlight Stage",
+  "main": "lib/ticket-calendar.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha"
   },
   "repository": {
