@@ -10,7 +10,7 @@ cinderella-stage-calendar
 ## For Consumers
 例として、Googleカレンダーに登録する手順を載せておきます。
 
-1. グループ別にiCalファイルが分かれているので、自分のグループのURLをコピーしておいてください。
+#### 1. グループ別にiCalファイルが分かれているので、自分のグループのURLをコピーしておいてください。
 
 - グループA https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-A.ics
 - グループB https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-B.ics
@@ -21,15 +21,15 @@ cinderella-stage-calendar
 - グループG https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-G.ics
 - グループH https://raw.githubusercontent.com/kuronekomichael/cinderella-stage-calendar/master/iCal/group-H.ics
 
-2. Googleカレンダーを開いて、**[他のカレンダー]**メニューから**[URLで追加]**を開きます
+#### 2. Googleカレンダーを開いて、**[他のカレンダー]**メニューから**[URLで追加]**を開きます
 
 ![](img/example-google-calendar-01.png)
 
-3. 1.でメモしてURLを入力して、**[カレンダーを追加]**します
+#### 3. 1.でメモしてURLを入力して、**[カレンダーを追加]**します
 
 ![](img/example-google-calendar-02.png)
 
-4. お好みでカレンダーの色を変えたり、通知を編集したりしてみてください
+#### 4. お好みでカレンダーの色を変えたり、通知を編集したりしてみてください
 
 ![](img/example-google-calendar-03.png)
 
