@@ -4,7 +4,7 @@
   "description": "Unofficial calendar for THE iDOLM@STER Cinderella Girls: Starlight Stage",
   "main": "lib/ticket-calendar.js",
   "scripts": {
-    "start": "node index.js",
+    "build": "node make_ical_files.js",
     "test": "mocha"
   },
   "repository": {
