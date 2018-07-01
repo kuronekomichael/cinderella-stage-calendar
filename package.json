@@ -23,12 +23,13 @@
   },
   "homepage": "https://github.com/kuronekomichael/cinderella-stage-calendar#readme",
   "dependencies": {
-    "moment": "^2.10.6",
-    "moment-range": "^2.0.3",
-    "vobject": "0.0.34"
+    "moment": "^2.22.2",
+    "moment-range": "^4.0.1",
+    "npm": "^6.1.0",
+    "vobject": "0.1.1"
   },
   "devDependencies": {
-    "chai": "^3.3.0",
-    "mocha": "^2.3.3"
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   }
 }
