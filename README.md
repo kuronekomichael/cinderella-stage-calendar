@@ -3,6 +3,8 @@ cinderella-stage-calendar
 [![Build Status](https://travis-ci.org/kuronekomichael/cinderella-stage-calendar.svg)](https://travis-ci.org/kuronekomichael/cinderella-stage-calendar)
 [![npm version](https://badge.fury.io/js/cinderella-stage-calendar.svg)](https://badge.fury.io/js/cinderella-stage-calendar)
 
+# 🔥 2020年2月のアップデートにて、トレチケタイムはトレチケタイムチケット制に変更されたため、本カレンダーは不要となりました 🔥
+
 日付からデレステのトレチケタイムを導き出します。iCal形式のファイルも置いてます。
 
 ## CAUTION
